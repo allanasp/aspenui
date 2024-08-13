@@ -1,0 +1,7 @@
+# See <https://typicode.github.io/husky/#/?id=command-not-found>
+
+## This loads nvm.sh, sets the correct PATH before running hook, and ensures the project version of Node
+
+export NVM_DIR="/opt/homebrew/opt/nvm"
+
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"

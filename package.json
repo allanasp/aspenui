@@ -7,13 +7,30 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "test": "turbo run test"
+    "test": "turbo run test",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "Allan Asp Christensen <allan@greenbow.dk> (http://example.com/)",
   "license": "ISC",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.1.0",
+    "@typescript-eslint/parser": "^8.1.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-vue": "^9.23.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.2.9",
+    "prettier": "^3.2.5",
     "turbo": "^2.0.12",
     "typescript": "^5.5.4"
-  }
+  },
+  "lint-staged": {
+    "**/*.{js,ts,tsx}": [
+      "eslint --fix"
+    ],
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "packageManager": "pnpm@7.5.1"
 }
