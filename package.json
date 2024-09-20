@@ -7,11 +7,12 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
+		"format": "turbo run format",
     "test": "turbo run test",
     "prepare": "husky install"
   },
   "keywords": [],
-  "author": "Allan Asp Christensen <allan@greenbow.dk> (http://example.com/)",
+  "author": "Allan Asp Christensen <allan@greenbow.dk> (http://allanasp.dk/)",
   "license": "ISC",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^8.1.0",

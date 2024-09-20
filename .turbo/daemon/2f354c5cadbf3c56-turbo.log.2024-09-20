@@ -1,0 +1,70 @@
+2024-09-20T20:50:44.277074Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo/cookies/.turbo-cookie"), AnchoredSystemPathBuf(".turbo/cookies/1.cookie")}
+2024-09-20T20:50:44.277084Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-09-20T20:51:44.377260Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo/cookies/2.cookie")}
+2024-09-20T20:51:44.377280Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-09-20T21:13:17.519292Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo/cookies/3.cookie")}
+2024-09-20T21:13:17.519327Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-09-20T21:13:17.618909Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo/cookies/4.cookie"), AnchoredSystemPathBuf("packages/components/.turbo")}
+2024-09-20T21:13:17.618920Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("components"), path: AnchoredSystemPathBuf("packages/components") }, WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-09-20T21:13:19.418465Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo/cache/5cf1787e903b93b5-meta.json"), AnchoredSystemPathBuf(".turbo/cache/5cf1787e903b93b5.tar.zst"), AnchoredSystemPathBuf(".turbo/cookies/5.cookie")}
+2024-09-20T21:13:19.418473Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-09-20T21:13:27.518215Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo/cookies/6.cookie")}
+2024-09-20T21:13:27.518225Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-09-20T21:13:41.118688Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo/cookies/7.cookie")}
+2024-09-20T21:13:41.118697Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-09-20T21:13:41.218721Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo/cookies/8.cookie")}
+2024-09-20T21:13:41.218730Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-09-20T21:13:42.118112Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/components/vite.config.ts.timestamp-1726866822028-183deca4784c2.mjs")}
+2024-09-20T21:13:42.118123Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("components"), path: AnchoredSystemPathBuf("packages/components") }}))
+2024-09-20T21:13:42.417367Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/components/vite.config.ts.timestamp-1726866822028-183deca4784c2.mjs")}
+2024-09-20T21:13:42.417375Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("components"), path: AnchoredSystemPathBuf("packages/components") }}))
+2024-09-20T21:13:52.118885Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("package.json")}
+2024-09-20T21:13:52.118893Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(All(DefaultGlobalFileChanged))
+2024-09-20T21:13:52.518115Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("package.json")}
+2024-09-20T21:13:52.518124Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(All(DefaultGlobalFileChanged))
+2024-09-20T21:13:52.717706Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/components/vitest.config.ts.timestamp-1726866832700-7984c471ee982.mjs")}
+2024-09-20T21:13:52.717716Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("components"), path: AnchoredSystemPathBuf("packages/components") }}))
+2024-09-20T21:13:52.918364Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/components/vitest.config.ts.timestamp-1726866832700-7984c471ee982.mjs")}
+2024-09-20T21:13:52.918373Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("components"), path: AnchoredSystemPathBuf("packages/components") }}))
+2024-09-20T21:15:45.917496Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/components/vite.config.ts.timestamp-1726866945850-7a62b3c173de4.mjs")}
+2024-09-20T21:15:45.917507Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("components"), path: AnchoredSystemPathBuf("packages/components") }}))
+2024-09-20T21:15:46.117781Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/components/vite.config.ts.timestamp-1726866945850-7a62b3c173de4.mjs")}
+2024-09-20T21:15:46.117790Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("components"), path: AnchoredSystemPathBuf("packages/components") }}))
+2024-09-20T21:19:07.816246Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("_tmp_30405_853b22032d345beb6ceabcada68a6b05"), AnchoredSystemPathBuf("")}
+2024-09-20T21:19:07.816281Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-09-20T21:19:08.816013Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".husky/_/.gitignore"), AnchoredSystemPathBuf(".husky/_/husky.sh")}
+2024-09-20T21:19:08.816023Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-09-20T21:19:24.716687Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(""), AnchoredSystemPathBuf("_tmp_30497_35a1d601c9d17d5ea4d4bf6ec72b8d91")}
+2024-09-20T21:19:24.716697Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-09-20T21:19:25.316574Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".husky/_/husky.sh"), AnchoredSystemPathBuf(".husky/_/.gitignore")}
+2024-09-20T21:19:25.316582Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-09-20T21:19:57.915626Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/components/vite.config.ts.timestamp-1726867197832-9f959541f7878.mjs")}
+2024-09-20T21:19:57.915648Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("components"), path: AnchoredSystemPathBuf("packages/components") }}))
+2024-09-20T21:19:58.114954Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/components/vite.config.ts.timestamp-1726867197832-9f959541f7878.mjs")}
+2024-09-20T21:19:58.114964Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("components"), path: AnchoredSystemPathBuf("packages/components") }}))
+2024-09-20T21:20:10.016423Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/components/vite.config.ts")}
+2024-09-20T21:20:10.016434Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("components"), path: AnchoredSystemPathBuf("packages/components") }}))
+2024-09-20T21:20:10.715771Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/components/vitest.config.ts.timestamp-1726867210630-5a8a057bb86f.mjs")}
+2024-09-20T21:20:10.715780Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("components"), path: AnchoredSystemPathBuf("packages/components") }}))
+2024-09-20T21:20:10.916460Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/components/vitest.config.ts.timestamp-1726867210630-5a8a057bb86f.mjs")}
+2024-09-20T21:20:10.916469Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("components"), path: AnchoredSystemPathBuf("packages/components") }}))
+2024-09-20T21:20:12.015769Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/components/vite.config.ts.timestamp-1726867211927-a84dd3af619e3.mjs")}
+2024-09-20T21:20:12.015779Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("components"), path: AnchoredSystemPathBuf("packages/components") }}))
+2024-09-20T21:20:12.214989Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/components/vite.config.ts.timestamp-1726867211927-a84dd3af619e3.mjs")}
+2024-09-20T21:20:12.214998Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("components"), path: AnchoredSystemPathBuf("packages/components") }}))
+2024-09-20T21:23:03.015197Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("package.json")}
+2024-09-20T21:23:03.015224Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(All(DefaultGlobalFileChanged))
+2024-09-20T21:23:03.714796Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/components/vitest.config.ts.timestamp-1726867383610-26c1c53bac20f.mjs")}
+2024-09-20T21:23:03.714805Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("components"), path: AnchoredSystemPathBuf("packages/components") }}))
+2024-09-20T21:23:03.919588Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/components/vitest.config.ts.timestamp-1726867383610-26c1c53bac20f.mjs")}
+2024-09-20T21:23:03.919600Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("components"), path: AnchoredSystemPathBuf("packages/components") }}))
+2024-09-20T21:27:33.479318Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("package.json")}
+2024-09-20T21:27:33.479344Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(All(DefaultGlobalFileChanged))
+2024-09-20T21:27:34.178731Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/components/vitest.config.ts.timestamp-1726867654154-b906a4067b325.mjs")}
+2024-09-20T21:27:34.178747Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("components"), path: AnchoredSystemPathBuf("packages/components") }}))
+2024-09-20T21:27:34.579237Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/components/vitest.config.ts.timestamp-1726867654154-b906a4067b325.mjs")}
+2024-09-20T21:27:34.579247Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("components"), path: AnchoredSystemPathBuf("packages/components") }}))
+2024-09-20T21:30:25.380458Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/components/src/App.vue")}
+2024-09-20T21:30:25.380491Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("components"), path: AnchoredSystemPathBuf("packages/components") }}))
+2024-09-20T21:30:58.680432Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("package.json")}
+2024-09-20T21:30:58.680443Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(All(DefaultGlobalFileChanged))
