@@ -9,6 +9,7 @@ import { join, dirname } from 'path'
 function getAbsolutePath(value: string): any {
   return dirname(require.resolve(join(value, 'package.json')))
 }
+
 const config: StorybookConfig = {
   stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx|mjs|ts|tsx)'],
   addons: [
@@ -21,6 +22,12 @@ const config: StorybookConfig = {
   framework: {
     name: getAbsolutePath('@storybook/vue3-vite'),
     options: {}
-  }
+  },
+  // Vite-specifik konfiguration, hvis du har brug for yderligere tilpasning
+  viteFinal: (config) => {
+    // Tilføj Sass processing, hvis nødvendigt (valgfrit)
+    return config
+  },
 }
+
 export default config
